@@ -1,0 +1,31 @@
+        .fotka {
+            align-items: center;
+            background-image: url("../header/images/tkosmomi.png");
+            background-repeat: no-repeat;
+            background-size:contain; /* Ensures the image covers the container */
+            height:350px;
+            width: 600px;
+        }
+        
+        h1 {
+            font-size: 70px;
+            padding-top: 50px;
+            text-align: center;
+            font-family: cursive;
+            padding-bottom: 5vw;
+        }
+        a {
+            vertical-align: middle;
+        }
+        .sve {
+            background-color: rgb(196, 196, 196);
+            padding-bottom: 10vw;
+        }
+        .tekst {
+            font-family: cursive;
+            text-align: center;
+        }
+
+        .col-lg-6 {
+            font-size: 33px;
+         }

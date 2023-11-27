@@ -1,0 +1,66 @@
+.mainheader {
+    position: relative;
+}
+.header {
+    background-image: url("../header/images/top-8-gray-office-ideas-4812-1657468983955.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 750px;
+    filter: blur(15px);
+}
+
+.zaruljica {
+    background-image: url("../header/images/zaruljica.png");
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(0.8);
+    background-attachment: fixed;
+    background-position: center;
+}
+@media screen and (min-width: 1050px) and (max-height: 850px){
+.cllogo {
+    background-image: url("../header/images/cllogo.png");
+    background-size: 100%;
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(0.8);
+    background-attachment: fixed;
+    background-position: center;
+} }
+.cllogo {
+    animation: slide_to_the_left 4s ease ;
+}
+@keyframes slide_to_the_left {
+    0% {
+        left: 150%;
+    }
+    100% {
+        left: 50%;
+    }
+
+}
+.zaruljica {
+    left: 50%;
+    animation: slide_to_the_right 4s ease ;
+}
+@keyframes slide_to_the_right {
+    0% {
+        left: -50%;
+    }
+    100% {
+        left: 50%;
+    }
+
+}
+

@@ -1,0 +1,57 @@
+.fotka {
+    align-items: center;
+    background-image: url("development.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:400px;
+    width: 500px;
+}
+
+.fotka2 {
+    align-items: center;
+    background-image: url("graphicdesign.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:400px;
+    width: 500px;
+}
+.fotka3 {
+    align-items: center;
+    background-image: url("consulting.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:400px;
+    width: 500px;
+}
+.fotka4 {
+    align-items: center;
+    vertical-align:-webkit-baseline-middle;
+    background-image: url("odrzavanje.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:300px;
+    width: 500px;
+}
+
+h1 {
+    font-size: 70px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: cursive;
+    padding-bottom: 5vw;
+}
+a {
+    vertical-align: middle;
+}
+.sve {
+    background-color: rgb(240, 196, 0);
+    padding-bottom: 10vw;
+}
+.tekst {
+    font-family: cursive;
+    text-align: center;
+}
+
+.col-lg-6 {
+    font-size: 33px;
+ }
